@@ -15,5 +15,5 @@ back_end = Backend()
 engine.rootObjects()[0].setProperty('backend', back_end)
 
 engine.quit.connect(app.quit)
-
+#close the app
 sys.exit(app.exec())
